@@ -82,6 +82,7 @@ def totalBill(quantity, price):
 people = []
 
 product = ["Coca", "Pepsi", "C2", "numberOne", "revive"]
+
 total_day_bill = 0
 
 def display_menu():
