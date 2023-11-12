@@ -315,31 +315,58 @@
 
 
 
-#tao mot cai mang de luu tru cac phan tu.
-numbers = []
-#bat dau.
-i = int(input("Enter a number start: "))
-#ket thuc.
-n = int(input("Enter a number end: "))
-# chay for de them cac phan tu vao numbers = phuong thuc append.
-for i in range(n+1):
-  numbers.append(i)
+# #tao mot cai mang de luu tru cac phan tu.
+# numbers = []
+# #bat dau.
+# i = int(input("Enter a number start: "))
+# #ket thuc.
+# n = int(input("Enter a number end: "))
+# # chay for de them cac phan tu vao numbers = phuong thuc append.
+# for i in range(n+1):
+#   numbers.append(i)
 
-# tim mot so trong numbers va kiem tra xem co no trong numbers khong.
-search_Number = int(input(f"Enter the number you want in from {i} to from {n}: "))
-list_index = []
-#tao mot cai mang de luu so chan tu vong lap for
-for digit in str(search_Number):
-    #chay vong lap de them phan tu vao list_index
-    list_index.append(int(digit))
-    #chay vong lap for de them phan tu vao elemntEven
-    evenElement =[]
-for k in list_index:
-    if k % 2 == 0:
-        evenElement.append(k)
+# # tim mot so trong numbers va kiem tra xem co no trong numbers khong.
+# search_Number = int(input(f"Enter the number you want in from {i} to from {n}: "))
+# list_index = []
+# #tao mot cai mang de luu so chan tu vong lap for
+# for digit in str(search_Number):
+#     #chay vong lap de them phan tu vao list_index
+#     list_index.append(int(digit))
+#     #chay vong lap for de them phan tu vao elemntEven
+#     evenElement =[]
+# for k in list_index:
+#     if k % 2 == 0:
+#         evenElement.append(k)
 
-sortNumber = list(sorted(evenElement))
-print(f"Number {search_Number} Has even digits {sortNumber}")
+# sortNumber = list(sorted(evenElement))
+# print(f"Number {search_Number} Has even digits {sortNumber}")
 
 
         
+
+
+# multiples = []
+
+# for i in range(2000,3200+1):
+#   if i % 7 == 0 and i % 5 != 0:
+#     multiples.append(i)
+
+# print(f"Multiples {multiples}")
+
+
+
+
+# timeWork = int(input("Enter time work"))
+
+# working_hour = int(input("Enter working hour"))
+
+
+# standardTime = 44
+
+# HoursExceedStandard = (timeWork - standardTime)
+
+# Total = standardTime * working_hour + HoursExceedStandard * working_hour * 1.5
+
+# print(f"Total {Total}")
+
+
