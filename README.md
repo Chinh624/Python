@@ -1,2 +1,2 @@
 # Python
-# Hello python
+# Hello Python
